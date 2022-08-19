@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'EOTG';
+    src: url('assets/fonts/eotg_font/edgeofthegalaxyregular-ovea6-webfont.woff2') format('woff2'),
+         url('assets/fonts/eotg_font/edgeofthegalaxyregular-ovea6-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DDBB';
+    src: url('assets/fonts/ddbb_font/disposabledroidbb-webfont.woff2') format('woff2'),
+         url('assets/fonts/ddbb_font/disposabledroidbb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    width:  100%;
+    height: 100%;
+    margin: 0;
+  }
+
+body{
+    background-color: #000;
+    margin:0;
+    height:100%;
+    overflow: hidden;
+}
+
+#title {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    z-index:2;
+    color:#fff;
+    font-family: 'EOTG';
+    letter-spacing: 15px;
+    text-align:center;
+}
+
+h2 {
+    z-index:2;
+    color:#fff;
+    font-family: 'DDBB';
+}
+
+button {
+    z-index:2;
+    color:#fff;
+    font-family: 'DDBB';
+    font-size:30px;
+    background-color:#5D3FD3;
+    width:250px;
+    height:75px;
+}
+
+button:hover {
+    cursor:pointer
+}
+
+.main{
+    z-index:1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 1px;
+    width: 1px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: -41vw -35vh 3px 0px #fff,-5vw -12vh 3px 2px #fff,25vw -26vh 3px 0px #fff,-24vw 10vh 0px 1px #fff,15vw 15vh 1px 1px #fff,23vw -22vh 3px 2px #fff,-22vw -46vh 2px 2px #fff,44vw -26vh 1px 3px #fff,13vw 43vh 1px 1px #fff,12vw -37vh 0px 2px #fff,30vw -5vh 3px 3px #fff,-39vw -35vh 1px 0px #fff,22vw 24vh 2px 2px #fff,14vw 18vh 1px 3px #fff,-11vw 28vh 3px 2px #fff,44vw 38vh 0px 0px #fff,1vw 41vh 2px 0px #fff,-3vw 37vh 2px 1px #fff,43vw 34vh 3px 1px #fff,25vw 38vh 3px 1px #fff,-1vw 3vh 3px 2px #fff,7vw 23vh 1px 0px #fff,-19vw 7vh 3px 3px #fff,12vw -33vh 2px 2px #fff,-17vw 15vh 2px 2px #fff,-43vw -42vh 2px 0px #fff,-13vw -29vh 1px 3px #fff,-30vw 17vh 2px 0px #fff,-43vw 49vh 2px 2px #fff,-45vw -27vh 0px 0px #fff,2vw 4vh 3px 1px #fff,34vw -25vh 3px 1px #fff,31vw -49vh 2px 2px #fff,-18vw 7vh 2px 2px #fff,39vw 12vh 1px 1px #fff,-40vw 16vh 3px 0px #fff,20vw -1vh 2px 2px #fff,22vw -35vh 3px 0px #fff,-36vw 2vh 2px 0px #fff,-49vw 7vh 0px 1px #fff,-47vw 21vh 3px 3px #fff,43vw -26vh 2px 1px #fff,-1vw 37vh 1px 2px #fff,-12vw 2vh 1px 2px #fff,15vw 1vh 0px 1px #fff,-14vw 47vh 3px 0px #fff,-26vw 4vh 0px 1px #fff,-32vw 20vh 1px 0px #fff,31vw -13vh 0px 2px #fff,-33vw 37vh 1px 2px #fff,-3vw -25vh 2px 3px #fff,23vw -33vh 3px 2px #fff,-44vw -46vh 1px 1px #fff,-22vw 6vh 0px 0px #fff,-7vw -50vh 2px 3px #fff,-24vw 32vh 1px 2px #fff,26vw 42vh 1px 1px #fff,26vw 44vh 1px 2px #fff,-9vw -43vh 2px 2px #fff,17vw 34vh 1px 1px #fff,-45vw 18vh 1px 2px #fff,-43vw 2vh 2px 3px #fff,12vw -3vh 0px 3px #fff,15vw 2vh 2px 1px #fff,-3vw 8vh 0px 3px #fff,-30vw -6vh 0px 0px #fff,32vw 21vh 2px 3px #fff,43vw -18vh 2px 3px #fff,28vw 8vh 2px 1px #fff,32vw 32vh 1px 3px #fff,-47vw -50vh 0px 3px #fff,3vw 7vh 2px 2px #fff,-40vw -1vh 0px 2px #fff,-9vw -50vh 2px 0px #fff,-30vw -42vh 2px 3px #fff,13vw 14vh 2px 3px #fff,-35vw 39vh 3px 1px #fff,20vw -48vh 2px 1px #fff,50vw 48vh 3px 3px #fff,-34vw -11vh 1px 3px #fff,0vw -18vh 1px 2px #fff,-5vw 11vh 2px 1px #fff,-5vw 21vh 3px 1px #fff,22vw 17vh 3px 3px #fff,-21vw 16vh 1px 0px #fff,-32vw 15vh 1px 1px #fff,-45vw -5vh 1px 2px #fff,-3vw 46vh 3px 3px #fff,-27vw 24vh 3px 0px #fff,-37vw 27vh 0px 1px #fff,-19vw 41vh 1px 0px #fff,-45vw -46vh 0px 1px #fff,0vw -2vh 2px 1px #fff,48vw 2vh 0px 0px #fff,-29vw 11vh 0px 0px #fff,43vw -45vh 3px 3px #fff,-18vw 23vh 2px 3px #fff,-41vw -21vh 1px 3px #fff,34vw -5vh 2px 0px #fff,-49vw 3vh 2px 2px #fff;
+    animation: zoom 10s alternate infinite;
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}
+
+#myCanvas {
+    position:absolute;
+    z-index:2;
+    cursor:none;
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+
+input {
+    width:200px;
+    text-align: center;
+    border-radius: 10px;
+}
